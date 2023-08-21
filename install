@@ -1,12 +1,25 @@
+Instale o git
+
+Abra a cmd e digite:
+
 git clone https://github.com/flutter/flutter.git -b stable
+
+Adicione a pasta bin do flutter ao path das variaveis de sistema 
+
+Digite isso para criar seu projeto no flutter
 
 Flutter create -t app --org com.pe.peapp -a kotlin -i swift myapp
 
-Se tiver erro no android executar 
+No cmd digite flutter doctor 
 
+Se tiver erro no android executar 
 
 cd C:\Users\SeuUsuario\AppData\Local\Android\Sdk\cmdline-tools\latest\bin
 
 sdkmanager --install "cmdline-tools;latest"
 
-se tiver dando erro no c/c++ baixa o kit de desenvolvimento do c/c++ no visual studio
+Caso não funcione voce pode entrar no android studio ir em tools-sdk manager-sdk tools- Android SDK Command-line Tools(latest)
+
+Se tiver dando erro no c/c++ baixa o kit de desenvolvimento do c/c++ no visual studio
+
+Digite flutter doctor --android-licenses e aceite o que se pede
