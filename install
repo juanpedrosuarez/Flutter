@@ -10,6 +10,8 @@ Digite isso para criar seu projeto no flutter
 
 Flutter create -t app --org com.pe.peapp -a kotlin -i swift myapp
 
+Digite code . para abrir o projeto no vc code
+
 No cmd digite flutter doctor 
 
 Se tiver erro no android executar 
