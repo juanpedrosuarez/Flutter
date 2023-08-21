@@ -1,0 +1,4 @@
+git clone https://github.com/flutter/flutter.git -b stable
+
+Flutter create -t app --org com.pe.peapp -a kotlin -i swift myapp
+
