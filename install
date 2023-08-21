@@ -2,3 +2,11 @@ git clone https://github.com/flutter/flutter.git -b stable
 
 Flutter create -t app --org com.pe.peapp -a kotlin -i swift myapp
 
+Se tiver erro no android executar 
+
+
+cd C:\Users\SeuUsuario\AppData\Local\Android\Sdk\cmdline-tools\latest\bin
+
+sdkmanager --install "cmdline-tools;latest"
+
+se tiver dando erro no c/c++ baixa o kit de desenvolvimento do c/c++ no visual studio
